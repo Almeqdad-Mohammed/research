@@ -8,22 +8,22 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
         {{-- include css files --}}
-        @include('dashboard.includes.css')
+        @include('admin.includes.css')
     </head>
     <body class="hold-transition sidebar-mini layout-fixed">
         <div class="wrapper">
 
             <!-- Navbar -->
-            @include('dashboard.includes.nav')
+            @include('admin.includes.nav')
             <!-- /.navbar -->
 
             {{-- include main sidebar container --}}
-            @include('dashboard.includes.sidebar')
+            @include('admin.includes.sidebar')
 
             <!-- Content Wrapper. Contains page content -->
             <div class="content-wrapper">
                 <!-- Content Header and breadcrumb -->
-                @include('dashboard.partials.breadcrumb')
+                @include('admin.partials.breadcrumb')
                 <!-- /.content-header and breadcrumb -->
 
                 <!-- Main content -->
@@ -37,7 +37,7 @@
             <!-- /.content-wrapper -->
 
             {{-- include footer --}}
-            @include('dashboard.includes.footer')
+            @include('admin.includes.footer')
 
             <!-- Control Sidebar -->
             <aside class="control-sidebar control-sidebar-dark">
@@ -48,6 +48,6 @@
         <!-- ./wrapper -->
 
         {{-- include javascript files --}}
-        @include('dashboard.includes.js')
+        @include('admin.includes.js')
     </body>
 </html>
